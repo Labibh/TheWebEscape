@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 50pt;
+    /*margin: 5% 5%;*/
+    text-align: center;
+    text-transform: uppercase;
+    /*border: 5px solid black;*/
+    /*border-radius: 5px;*/
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid-container {
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    max-width: 1000px;
+    height: 100vh;
+    background-color: white;
+}
+.grid-items {
+    position: relative;
+}
+
+.inputs {
+    background-color: black;
+    font-size: 90px;
+}
+
+.sym {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.grid-items:nth-of-type(even):not(.inputs) {
+    background-color: black;
+}
+
+#enter {
+    padding: 0 5%;
+    background-color: darkred;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 3vmin;
+    opacity: 0;
+}

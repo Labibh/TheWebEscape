@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(220, 120, 50, 1);
+}
+
+a {
+    display: none;
+}
+
+.showEnter {
+    display: block;
+    margin: 50px 25%;
+    text-transform: uppercase;
+    font-size: 30px;
+    opacity: 0;
+    border: 5px solid black;
+    border-radius: 25%;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+#theVoid {
+    width: 50%;
+    padding-bottom: 50%;
+    background-color: lightslategray;
+    display: inline-block;
+    margin: 3%;
+    border-radius: 100%;
+    border: 10px solid white;
+    transition: background-color 0.5s;
+}
+
+.colorPick span{
+    width: 12%;
+    padding-bottom: 12%;
+    display: inline-block;
+    margin: 3%;
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+.container {
+    padding-top: 20px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
