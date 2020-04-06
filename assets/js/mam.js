@@ -47,6 +47,7 @@ function mixVoidColors(color) {
     let green = colorsOnly[1];
     let blue = colorsOnly[2];
 
+    //check which color to change and set to vColor
     if (red !== "0") {vColor[0] = red}
     if (green !== "0") {vColor[1] = green}
     if (blue !== "0") {vColor[2] = blue}
